@@ -9,7 +9,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: '*',
+    origin: 'https://expensemaster-001.web.app',
   })
 );
 app.use(express.json());
